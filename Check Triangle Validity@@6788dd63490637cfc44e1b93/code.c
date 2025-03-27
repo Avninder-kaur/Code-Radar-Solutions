@@ -5,10 +5,9 @@ int main(){
     scanf("%d",&y);
     scanf("%d",&z);
     if(x+y>z && y+z>x && x+z>y){
-        printf("Valid");
+        printf("Valid");}
         else{
             printf("Invalid");
         }
-    }
     return 0;
 }
