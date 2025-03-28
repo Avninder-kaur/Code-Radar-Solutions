@@ -3,7 +3,7 @@
 int main(){
     int num;
     scanf("%d", &num);
-    if(num & 1){
+    if(num%2==0){
         printf("Set/n");
     }
     else{
