@@ -6,7 +6,7 @@ int main() {
         for (int j = 1; j <= n; j++) {  // Loop for columns
             if (i == 1 || i == n || j == 1 || j == n) {
                 // Print star for the border (first/last row or column)
-                printf("* ");
+                printf("*");
             } else {
                 // Print space for the hollow part
                 printf("  ");
