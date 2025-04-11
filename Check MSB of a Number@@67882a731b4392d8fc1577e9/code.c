@@ -3,7 +3,7 @@
 int main(){
     int num,result;
     scanf("%d", &num);
-    result=num>>(sizeof(num));
+    result=num>>31;
     if(result==1){
         printf("Set");
     }
